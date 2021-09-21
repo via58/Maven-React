@@ -1,0 +1,19 @@
+.login-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../asset/images/photo-1587620962725-abab7fe55159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-login-pane{
+    background-color: #6c757d;
+    padding: 5%;
+    position: relative;
+    top: 10%;
+    left:60%;
+    text-align: left;
+    width: 30vw;
+    height: 75vh;
+    opacity: 0.9;
+}
