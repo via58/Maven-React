@@ -33,10 +33,10 @@ export const Login = () => {
 };
     axios.post(config.LOGIN_URL,userInformation,headers).then(res=>{
       console.log("res",res);
-      history.push("/dashboard");
+      history.push("/dashboard"); // route --> Dashboard
     })
     .catch(err=>{
-      // Router.
+      // Route ----> Error page
       alert("Error login");
       console.error(err)})
 }
